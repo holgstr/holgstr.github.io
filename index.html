@@ -35,6 +35,14 @@
         ul ul li {
         margin-bottom: 0.7em;
         }
+        .code-link {
+            text-decoration: none; /* removes underline */
+        }
+        .code-link code {
+            font-family: monospace;
+            background-color: #f4f4f4;
+            padding: 2px;
+        }
     </style>
 </head>
 <body>
@@ -69,7 +77,8 @@
                 <li>
                      <p>Projects:</p>
                       <ul>
-                        <li>I'm a co-creator of <a href="https://github.com/insightsengineering/simIDM"><code>simIDM</code></a>, a simulation engine for multistate survival models used in oncology clinical trials.</li>
+                        <li>I'm a co-creator of <a href="https://github.com/insightsengineering/simIDM"
+                            class="code-link"<code>simIDM</code></a>, a simulation engine for multistate survival models used in oncology clinical trials.</li>
                         <li>I'm the author of <a href="https://holgstr.github.io/fmeffects/">{fmeffects}</a>, a library for model-agnostic interpretations of black-box
                             supervised ML models (paper <a href="https://arxiv.org/abs/2310.02008">here</a>).</li>
                     </ul>
